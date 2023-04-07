@@ -1,8 +1,8 @@
-package ejerciciosjavaeggp3;
+package ejerciciosJavaIntroP3;
 
 import java.util.Scanner;
 
-public class Ejercicio3 {
+public class Ejercicio3P3 {
 //Crea una aplicación que a través de una función nos convierta una cantidad
 //de euros introducida por teclado a otra moneda, estas pueden ser a dólares,
 //yenes o libras. La función tendrá como parámetros, la cantidad de euros y

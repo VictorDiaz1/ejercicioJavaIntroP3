@@ -1,4 +1,4 @@
-package ejerciciosjavaeggp3;
+package ejerciciosJavaIntroP3;
 
 import java.util.Scanner;
 
