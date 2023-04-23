@@ -36,7 +36,7 @@ public class Ejercicio2P3 {
             } else {
                 System.out.println("Es menor de edad");
             }
-            System.out.println("Desea continuar?");
+            System.out.println("Desea continuar? Si/No");
             respuesta = sc.nextLine();
             //sc.nextLine();
         } while (!respuesta.equalsIgnoreCase("no"));
