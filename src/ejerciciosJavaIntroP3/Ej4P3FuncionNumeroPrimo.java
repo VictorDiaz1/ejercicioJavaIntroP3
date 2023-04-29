@@ -2,7 +2,7 @@ package ejerciciosJavaIntroP3;
 
 import java.util.Scanner;
 
-public class Ejercicio4P3 {
+public class Ej4P3FuncionNumeroPrimo {
 
 //    Crea una aplicación que nos pida un número por teclado y con una
 //    función se lo pasamos por parámetro para que nos indique si es o no un

@@ -2,7 +2,7 @@ package ejerciciosJavaIntroP3;
 
 import java.util.Scanner;
 
-public class Ejercicio1P3 {
+public class Ej1P3FuncionOperaciones {
 //    Crea una aplicación que le pida dos números al usuario y este pueda
 //    elegir entre sumar, restar, multiplicar y dividir. La aplicación debe tener
 //    una función para cada operación matemática y deben devolver sus resultados
