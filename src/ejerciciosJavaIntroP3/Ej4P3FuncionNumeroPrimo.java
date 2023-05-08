@@ -23,21 +23,32 @@ public class Ej4P3FuncionNumeroPrimo {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese un numero: ");
         int num = sc.nextInt();
-        numeroPrimo(num);
+        boolean numPrimo = true;
+        numeroPrimo(num, numPrimo);
+        numPrimo = numeroPrimo(num, numPrimo);
+
+        if (numPrimo) {
+            System.out.println("Es un numero Primo");
+        } else {
+            System.out.println("No es un numero primo");
+        }
 
     }
 
-    public static int numeroPrimo(int num) {
-        boolean primo = true;
-        for (int i = 2; i < num; i++) {
-            if (num % i == 0) {
-                return 1;
-            }
-            
-        }
-        
+    public static boolean numeroPrimo(int num, boolean numPrimo) {
 
-       return 1;
+        double resultado;
+        int cont = 0;
+        for (int i = 2; i < num; i++) {
+            resultado = num % i;
+            if (resultado == 0) {
+                cont++;
+            }
+        }
+
+        numPrimo = cont == 0;
+
+        return numPrimo;
     }
 
 }
